@@ -1,0 +1,32 @@
+{
+  "name": "sample-project",
+  "version": "1.0.0",
+  "description": "A sample Node.js project for testing purposes",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "jest",
+    "lint": "eslint .",
+    "build": "echo 'Building project...'"
+  },
+  "keywords": [
+    "sample",
+    "test",
+    "node"
+  ],
+  "author": "Test User",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "eslint": "^9.10.0",
+    "nodemon": "^3.1.0",
+    "prettier": "^3.3.3",
+    "supertest": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
